@@ -1,0 +1,20 @@
+{
+    "service": {
+      "name": "node_exporter",
+      "meta": {
+        "status": "Virtual",
+        "sys": "systemd"
+        },
+      "port": 9100,
+      "checks": [
+        {
+          "name": "checks node_exporter",
+          "args": [
+            "curl",
+            "localhost:9100"
+          ],
+          "interval": "30s"
+        }
+      ]
+    }
+  }

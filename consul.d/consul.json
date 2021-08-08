@@ -1,0 +1,33 @@
+{
+  "bind_addr": "192.168.1.4",
+  "client_addr": "0.0.0.0",
+  "datacenter": "Home_Lab",
+  "data_dir": "/var/lib/consul",
+  "domain": "consul",
+  "enable_local_script_checks": true,
+  "rejoin_after_leave": true,
+  "log_level":"INFO",
+  "server": true,
+  "performance": {
+    "raft_multiplier": 1
+  },
+  "enable_syslog": true,
+  "ui": true,
+  "watches": [
+    {
+      "type": "checks",
+      "service": "openvpn",
+      "args": ["/etc/consul.d/service_handler.sh", "openvpn-server@server.service"]
+    },
+    {
+      "type": "checks",
+      "service": "prometheus",
+      "args": ["/etc/consul.d/service_handler.sh", "prometheus.service"]
+    },
+    {
+      "type": "checks",
+      "service": "node_exporter",
+      "args": ["/etc/consul.d/service_handler.sh", "node_exporter.service"]
+    }
+  ]
+}

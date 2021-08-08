@@ -1,0 +1,12 @@
+{
+    "service": {
+      "name": "openvpn",
+      "checks": [
+        {
+          "name": "checks openvpn",
+          "args": ["/etc/consul.d/openvpn.sh"],
+          "interval": "30s"
+        }
+      ]
+    }
+  }

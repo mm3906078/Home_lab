@@ -1,0 +1,16 @@
+{
+    "service": {
+      "name": "prometheus",
+      "port": 9090,
+      "checks": [
+        {
+          "name": "checks prometheus",
+          "args": [
+            "curl",
+            "localhost:9090"
+          ],
+          "interval": "30s"
+        }
+      ]
+    }
+  }

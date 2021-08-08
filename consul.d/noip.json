@@ -1,0 +1,12 @@
+{
+    "service": {
+      "name": "noip",
+      "checks": [
+        {
+          "name": "checks noip",
+          "args": ["/etc/consul.d/noip.py"],
+          "interval": "15s"
+        }
+      ]
+    }
+  }
