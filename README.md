@@ -12,7 +12,7 @@ this action because logging in proxmox for VM is not very detail
   
 At its show I have 2 VM (rancher & ubentu) and pve is the proxmox server
   
-![Consul server service](images/consul_service.png)
+![Consul server service](images/consul_service.PNG)
   
 I have a lot of services and it increases 
 
@@ -20,6 +20,6 @@ I have a lot of services and it increases
 
 <details><summary><b>Prometheus Server</b></summary>
 
-![Prometheus server](images/Prometheus_targets.png)
+![Prometheus server](images/Prometheus_targets.PNG)
   
 all the node-exporter is up and working
