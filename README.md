@@ -4,6 +4,8 @@
 My main hypervisor is proxmox , I have 2 major VM all of them install consul-client and node-exporter to get service discovery & monitoring use prometheus & consul
 this action because logging in proxmox for VM is not very detail
 
+Read more on virgool(persion):https://virgool.io/@mr.salehi/home-lab-k6zg0onwo90y
+
 ![Proxmox](images/proxmox.PNG)
 
 <details><summary><b>Consul Server</b></summary>
