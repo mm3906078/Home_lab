@@ -6,6 +6,7 @@ this action because logging in proxmox for VM is not very detail
 
 Read more about Home Lab on virgool(persion): https://vrgl.ir/J46uS  
 Read more about Monitoring on virgool(persion): https://vrgl.ir/W2egj  
+Read more about Monitoring on medium(english): https://medium.com/@mr.salehi/prometheus-consul-3f3df009efaf
 
 ![Proxmox](images/proxmox.PNG)
 
